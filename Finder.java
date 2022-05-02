@@ -5,7 +5,7 @@ public class Finder {
     public Integer[] EvenNumberFinder(Integer[]list){
         ArrayList<Integer> array = new ArrayList<>();
         for (int i = 0; i < list.length; ++i) {
-            if (list[i]/2 == 0) {
+            if (list[i]%2 == 0) {
                 array.add(list[i]);
             }
         }
